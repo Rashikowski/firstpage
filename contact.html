@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexstyle.css">
+
+    <title>Contact</title>
+</head>
+<body>
+    <h1 id='top' class="header">Linux in a NutShell</h1>
+
+    <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="distributions.html">Distributions</a></li>
+        <li><a href="useful_links.html">Useful Links</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <h2>Contact</h2>
+
+      <form>
+
+        <div>
+        <label for="fname" class="label-width">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="First Name">
+        </div>
+        
+        <div>
+        <label for="lname" class="label-width">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Last Name">
+        </div>
+        
+        <div>
+        <label for="email" class="label-width">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+        </div>
+        
+        <div>
+        <label for="pw1" class="label-width">Enter Password:</label>
+        <input type="password" name="pw1" id="pw1" placeholder="Password" required minlength="8">
+        </div>
+        
+        <div>
+        <label for="pw2" class="label-width">Confirm Password:</label>
+        <input type="password" name="pw2" id="pw2" placeholder="Confirm Password" required minlength="8" >
+        </div>
+        
+        <div>
+            
+            <div class="label-width">Select your gender:
+
+            </div>
+
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        
+        <input type="radio" name="gender" id="other">
+        <label for="other">Other</label>
+        </div>
+        
+        <div>
+            <div class="label-width"></div>
+        <input type="checkbox" name="accept-terms" id="accept-terms" required>
+        <label for="accept-terms">Accept Terms</label>
+        </div>
+        
+        <div>
+            <div class="label-width"></div>
+        <input type="checkbox" name="newsletter" id="newsl" checked>
+        <label for="newsl">Newsletter</label>
+        </div>
+        
+        <div>
+        <label for="country" class="label-width"></label>
+        <select name="country" id="country">
+            <option value="">Choose Your Country</option>
+            <option value="">--------------</option>
+            <option value="usa">United States</option>
+            <option value="de">Germany</option>
+            <option value="at">Österreich</option>
+        </select>
+        </div>
+        
+        <div>
+        <label for="gbook" class="label-width"></label>
+        <textarea name="guestbook" id="gbook" cols="30" rows="10" placeholder="Leave a Message"></textarea>
+        </div>
+        
+        <div>
+            <div class="label-width"></div>
+        <input type="submit" value="Send">
+        </div>
+        
+
+    </form>
+
+    <div style="margin-top: 40px; margin-left: -8px; margin-right: -8px;">
+        <table width='100%'>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>E-Mail</th>
+                <th>Phone Number</th>
+            </tr>
+            <tr>
+                <td>Said Rashid</td>
+                <td>Rabi</td>
+                <td>diggatrigga555@gmail.com</td>
+                <td>015203751283</td>
+            </tr>
+        </table>
+    </div>
+    
+    <footer>
+        All content  is taken from <a href="https://www.linux.com/what-is-linux/" target="_blank">linux.com</a> <a href="https://opensource.com/resources/linux" target="_blank">opensource.com</a>  <br>
+        Pictures were taken from <a href="http://distrowatch.org/" target="_blank">distrowatch.org</a> 
+    </footer>
+</body>
+</html>
